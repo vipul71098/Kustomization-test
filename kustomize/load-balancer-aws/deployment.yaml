@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: aws-load-balancer
+  name: aws-load-balancer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aws-load-balancer
+  template:
+    metadata:
+      labels:
+        app: aws-load-balancer
+    spec:
+      containers:
+      - image: aws-load-balanacer-controller
+        name: aws-load-balanacer-controller
