@@ -1,4 +1,4 @@
-resources:
-  ~ ../../base
+bases:
+  - ../../base
 
 namePrefix: dev-
