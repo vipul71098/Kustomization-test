@@ -17,4 +17,7 @@ spec:
   # Default values
   values:
     clusterName: loadCluster5
+    serviceAccount:
+      annotations:
+        eks.amazonaws.com/role-arn: "arn:aws:iam::730587625247:role/myeks"
         
