@@ -15,11 +15,8 @@ spec:
         namespace: flux-system
       interval: 1m
   # Default values
-#   values:
-#     resources:
-#       limits:
-#         cpu: 100m
-#         memory: 300Mi
-#       requests:
-#         cpu: 100m
-#         memory: 300Mi
+  values:
+    clusterName: loadCluster5
+    serviceAccount:
+      annotations:
+        eks.amazonaws.com/role-arn: "arn:aws:iam::864734260214:role/irsa-aws-load-balancer-controller-dev
