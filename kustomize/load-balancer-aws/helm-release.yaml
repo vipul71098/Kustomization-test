@@ -20,3 +20,4 @@ spec:
     serviceAccount:
       annotations:
         eks.amazonaws.com/role-arn: "arn:aws:iam::864734260214:role/irsa-aws-load-balancer-controller-dev
+        
