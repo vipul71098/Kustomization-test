@@ -19,5 +19,5 @@ spec:
     clusterName: loadCluster5
     serviceAccount:
       annotations:
-        eks.amazonaws.com/role-arn: "arn:aws:iam::549393350038:role/my-role"
+        eks.amazonaws.com/role-arn: "arn:aws:iam::532989838589:role/my-role"
         
