@@ -20,4 +20,5 @@ spec:
     serviceAccount:
       annotations:
         eks.amazonaws.com/role-arn: "arn:aws:iam::511740069564:role/AmazonEKSLoadBalancerControllerRole"
+        kubernetes.io/ingress.class: alb
         
