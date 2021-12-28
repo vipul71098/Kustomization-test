@@ -19,5 +19,5 @@ spec:
     clusterName: mytestCluster11
     serviceAccount:
       annotations:
-        eks.amazonaws.com/role-arn: "arn:aws:iam::511740069564:role/AmazonEKSLoadBalancerControllerRole"
+        eks.amazonaws.com/role-arn: "arn:aws:iam::268137321199:role/AmazonEKSLoadBalancerControllerRole"
         
