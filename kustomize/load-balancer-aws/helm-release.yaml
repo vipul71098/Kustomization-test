@@ -16,7 +16,7 @@ spec:
       interval: 1m
   # Default values
   values:
-    clusterName: mytestCluster11
+    clusterName: mytestClusters1
     serviceAccount:
       annotations:
         eks.amazonaws.com/role-arn: "arn:aws:iam::268137321199:role/AmazonEKSLoadBalancerControllerRole"
